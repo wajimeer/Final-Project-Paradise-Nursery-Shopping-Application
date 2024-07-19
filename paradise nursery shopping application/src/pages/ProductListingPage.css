@@ -1,0 +1,15 @@
+.product-listing-page {
+    padding: 2rem;
+  }
+  
+  .plant-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+  
