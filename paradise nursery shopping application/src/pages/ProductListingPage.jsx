@@ -1,6 +1,5 @@
 import React from 'react';
 import { useCart } from '../context/CartContext';
-import Header from '../components/Header';
 import PlantCard from '../components/PlantCard';
 import './ProductListingPage.css';
 
