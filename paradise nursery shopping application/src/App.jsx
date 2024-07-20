@@ -3,12 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
 import ProductListingPage from './pages/ProductListingPage';
 import ShoppingCartPage from './pages/ShoppingCartPage';
-import Header from './components/Header';
 
 function App() {
   return (
     <Router basename="/Final-Project-Paradise-Nursery-Shopping-Application">
-      <Header />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/products" element={<ProductListingPage />} />
