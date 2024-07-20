@@ -9,6 +9,7 @@ import lavenderImg from '../assets/lavender.jpg';
 import rosemaryImg from '../assets/rosemary.jpg';
 import fiddleLeafFigImg from '../assets/fiddle-leaf-fig.jpg';
 import aloeVeraImg from '../assets/aloe-vera.jpg';
+import Header from './components/Header';
 
 const plants = [
   { id: 1, category: 'Air Purifying', name: 'Snake Plant', price: 15, thumbnail: snakePlantImg },

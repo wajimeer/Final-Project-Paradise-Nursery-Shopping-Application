@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import './ShoppingCartPage.css';
+import Header from './components/Header';
 
 const ShoppingCartPage = () => {
   const { cart, removeFromCart, incrementQuantity, decrementQuantity } = useCart();
